@@ -1,0 +1,100 @@
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+h1 {
+    font-weight: lighter;
+    display: inline-block;
+}
+
+main {
+    margin: 10px 50px;
+}
+
+#logo {
+    padding: 0 10px;
+}
+
+#nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    font-size: 14px;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#blogtitle {
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px 0;
+}
+
+#date {
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+    color: #c7c7c7;
+    text-align: center;
+    margin: 5px;
+}
+
+#twitterbutton {
+    text-align: center;
+}
+
+button {
+    font-weight: bold;
+    background-color: #4d97c4;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 3px;
+}
+
+#blog p {
+    line-height: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 25px 0;
+}
+
+hr {
+    padding: 0px;
+    margin: 0px;
+}
+
+#bottomnav {
+    list-style: none;
+    margin: 0 40px;
+    border: 0;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#bottomnav li {
+    display: inline-block;
+    padding: 0 10px;
+    margin: 0;
+}
+
+#bottomnav ul {
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    color: grey;
+    margin: 50px 0 5px 0;
+}
