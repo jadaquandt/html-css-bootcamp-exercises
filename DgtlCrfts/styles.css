@@ -30,7 +30,7 @@ header {
 
 #logo {
     text-align: center;
-    display: block;
+    display: flex;
     height: 75px;
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +52,7 @@ h2 {
 
 #arrow {
     text-align: center;
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
@@ -100,7 +100,8 @@ footer {
 #footerlinks {
     list-style: none;
     margin: 0 0 10px 20px;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     font-size: 18px;
 }
 
